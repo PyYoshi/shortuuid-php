@@ -1,0 +1,31 @@
+{
+  "name": "pyyoshi/shortuuid-php",
+  "description": "",
+  "type": "library",
+  "keywords": [
+    "uuid",
+    "identifier",
+    "guid"
+  ],
+  "homepage": "https://github.com/PyYoshi/shortuuid-php",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Yoshihiro Misawa",
+      "homepage": "https://github.com/PyYoshi/",
+      "email": "myoshi321go@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/PyYoshi/shortuuid-php/issues",
+    "source": "https://github.com/PyYoshi/shortuuid-php/"
+  },
+  "require": {
+    "php": ">=5.3",
+    "rhumsaa/uuid": "2.8",
+    "moontoast/math": "~1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1"
+  }
+}
