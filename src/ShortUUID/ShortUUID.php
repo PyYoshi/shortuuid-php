@@ -2,7 +2,8 @@
 
 namespace ShortUUID;
 
-use Rhumsaa\Uuid\Uuid;
+use Ramsey\Uuid\Uuid;
+use Ramsey\Uuid\UuidInterface;
 
 class ShortUUID
 {
@@ -95,7 +96,7 @@ class ShortUUID
      * Encodes a UUID into a string (LSB first) according to the alphabet
      * If leftmost (MSB) bits 0, string might be shorter
      *
-     * @param Uuid $uuid
+     * @param UuidInterface $uuid
      * @return string
      */
     public function encode($uuid)

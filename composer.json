@@ -22,7 +22,7 @@
   },
   "require": {
     "php": ">=5.5",
-    "ramsey/uuid": "2.8.3",
+    "ramsey/uuid": "3.0.0",
     "moontoast/math": "~1.1"
   },
   "require-dev": {

@@ -4,7 +4,7 @@ namespace ShortUUID\Tests;
 
 use ShortUUID\ShortUUID;
 use ShortUUID\ValueError;
-use Rhumsaa\Uuid\Uuid;
+use Ramsey\Uuid\Uuid;
 
 class ShortUUIDTest extends \PHPUnit_Framework_TestCase
 {

@@ -3,7 +3,7 @@
 namespace ShortUUID\Tests;
 
 use ShortUUID\ShortUUID;
-use Rhumsaa\Uuid\Uuid;
+use Ramsey\Uuid\Uuid;
 
 class ShortUUIDPaddingTest extends \PHPUnit_Framework_TestCase
 {
