@@ -2,6 +2,7 @@ shortuuid-php
 =============
 
 [![Build Status](https://travis-ci.org/PyYoshi/shortuuid-php.svg)](https://travis-ci.org/PyYoshi/shortuuid-php)
+[![Build Status](https://img.shields.io/packagist/v/PyYoshi/shortuuid-php.svg)](https://packagist.org/packages/pyyoshi/shortuuid-php)
 
 The PHP implementation of [shortuuid](https://github.com/stochastic-technologies/shortuuid).
 
