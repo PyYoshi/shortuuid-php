@@ -90,7 +90,7 @@ If the default 22 digits are too long for you, you can get shorter IDs by just t
 To serialize existing UUIDs, use encode() and decode():
 
 ```php
-use Rhumsaa\Uuid\Uuid;
+use Ramsey\Uuid\Uuid;
 use ShortUUID\ShortUUID;
 
 $u = Uuid::uuid4();
