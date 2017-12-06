@@ -2,6 +2,9 @@
 
 namespace ShortUUID;
 
+/**
+ * @deprecated Use composer autoloader instead.
+ */
 class Autoloader
 {
     const NAME_SPACE = 'ShortUUID';
