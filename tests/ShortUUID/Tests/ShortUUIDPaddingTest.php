@@ -2,10 +2,11 @@
 
 namespace ShortUUID\Tests;
 
+use PHPUnit\Framework\TestCase;
 use ShortUUID\ShortUUID;
 use Ramsey\Uuid\Uuid;
 
-class ShortUUIDPaddingTest extends \PHPUnit_Framework_TestCase
+class ShortUUIDPaddingTest extends TestCase
 {
     public function testPadding()
     {
