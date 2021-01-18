@@ -2,11 +2,12 @@
 
 namespace ShortUUID\Tests;
 
+use PHPUnit\Framework\TestCase;
 use ShortUUID\ShortUUID;
 use ShortUUID\ValueError;
 use Ramsey\Uuid\Uuid;
 
-class ShortUUIDTest extends \PHPUnit_Framework_TestCase
+class ShortUUIDTest extends TestCase
 {
     public function testGeneration()
     {
